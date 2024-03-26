@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/patelshashank/US02_Shashank_Sample2Project
   gitUsername: patelshashank
   gitBranch: main
+- name: MgOrderUtil
+  gitServerName: presaleseueplus_shashank
+  gitUrl: https://github.com/patelshashank
+  gitUsername: patelshashank
+  gitBranch: master
 services:
 - serviceName: project.us02_shashank_sample2.integrations:addIntegers
   packages:
