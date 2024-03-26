@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: US02_Shashank_Sample2Project
+  gitServerName: Shashank
+  gitUrl: https://github.com/patelshashank/US02_Shashank_Sample2Project
+  gitUsername: patelshashank
+  gitBranch: main
