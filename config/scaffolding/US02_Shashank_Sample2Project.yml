@@ -21,3 +21,25 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.us02_shashank_sample2.integrations:determineShippingDetails_WrapperSvc
+  packages:
+  - name: US02_Shashank_Sample2Project
+    version: "1.0"
+  - name: MgOrderUtil
+    version: "1.0"
+- serviceName: mgOrderUtil.services:determineShippingDetails
+  packages:
+  - name: MgOrderUtil
+    version: "1.0"
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.math:multiplyInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741

@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">demouser</value>
-    <value name="createdDate">1711483953067</value>
-    <value name="lastModifiedDate">1711483953067</value>
+    <value name="lastModifiedBy">demouser</value>
+    <value name="lastModifiedDate">1711484039261</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
+      <value name="id">c7c44cc8579a41a78031b23b949358fa</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">US02_Shashank_Session2</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">determineShippingDetails_WrapperSvc</value>
     <value name="description"></value>
@@ -72,6 +71,7 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
